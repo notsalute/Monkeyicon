@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src"><UniqueIdentifier>{C8B0FBA5-B2AA-4D50-A29E-18801C029A18}</UniqueIdentifier></Filter>
+    <Filter Include="src\core"><UniqueIdentifier>{772B95F8-01C6-43CF-B5D3-F7D3BD1252AF}</UniqueIdentifier></Filter>
+    <Filter Include="src\platform"><UniqueIdentifier>{5E0C3B7A-8F1D-4C62-9A4E-2B7D6F1C8E30}</UniqueIdentifier></Filter>
+    <Filter Include="src\ui"><UniqueIdentifier>{9D2A6E41-3B7C-4F8E-A1D5-6C0E2F4B7A19}</UniqueIdentifier></Filter>
+    <Filter Include="resources"><UniqueIdentifier>{4A8F9447-4F90-43E4-AE46-A33163BF7A37}</UniqueIdentifier></Filter>
+    <Filter Include="third_party\imgui"><UniqueIdentifier>{210CA5D1-04B5-4E7B-89C1-16E4F7E56825}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\core\ApplicationTarget.cpp"><Filter>src\core</Filter></ClCompile>
+    <ClCompile Include="src\core\IconConverter.cpp"><Filter>src\core</Filter></ClCompile>
+    <ClCompile Include="src\core\IconPatcher.cpp"><Filter>src\core</Filter></ClCompile>
+    <ClCompile Include="src\core\RuntimeIconManager.cpp"><Filter>src\core</Filter></ClCompile>
+    <ClCompile Include="src\core\ShortcutManager.cpp"><Filter>src\core</Filter></ClCompile>
+    <ClCompile Include="src\platform\WindowsUtils.cpp"><Filter>src\platform</Filter></ClCompile>
+    <ClCompile Include="src\ui\UI.cpp"><Filter>src\ui</Filter></ClCompile>
+    <ClCompile Include="third_party\imgui\imgui.cpp"><Filter>third_party\imgui</Filter></ClCompile>
+    <ClCompile Include="third_party\imgui\imgui_draw.cpp"><Filter>third_party\imgui</Filter></ClCompile>
+    <ClCompile Include="third_party\imgui\imgui_tables.cpp"><Filter>third_party\imgui</Filter></ClCompile>
+    <ClCompile Include="third_party\imgui\imgui_widgets.cpp"><Filter>third_party\imgui</Filter></ClCompile>
+    <ClCompile Include="third_party\imgui\backends\imgui_impl_win32.cpp"><Filter>third_party\imgui</Filter></ClCompile>
+    <ClCompile Include="third_party\imgui\backends\imgui_impl_dx11.cpp"><Filter>third_party\imgui</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\core\ApplicationTarget.h"><Filter>src\core</Filter></ClInclude>
+    <ClInclude Include="src\core\IconConverter.h"><Filter>src\core</Filter></ClInclude>
+    <ClInclude Include="src\core\IconPatcher.h"><Filter>src\core</Filter></ClInclude>
+    <ClInclude Include="src\core\RuntimeIconManager.h"><Filter>src\core</Filter></ClInclude>
+    <ClInclude Include="src\core\ShortcutManager.h"><Filter>src\core</Filter></ClInclude>
+    <ClInclude Include="src\platform\WindowsUtils.h"><Filter>src\platform</Filter></ClInclude>
+    <ClInclude Include="src\ui\UI.h"><Filter>src\ui</Filter></ClInclude>
+    <ClInclude Include="resources\resource.h"><Filter>resources</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources\Monkeyicon.rc"><Filter>resources</Filter></ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\monkeyicon.ico"><Filter>resources</Filter></Image>
+    <None Include="resources\monkeyicon-logo.png"><Filter>resources</Filter></None>
+  </ItemGroup>
+</Project>
